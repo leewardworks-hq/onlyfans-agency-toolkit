@@ -17,6 +17,7 @@ Everything here works without special software: in a browser, Google Sheets or E
 | [`checklists/shift-handover.md`](checklists/shift-handover.md) | What the outgoing chatter passes to the next one, so fans don't feel the change. |
 | [`checklists/chatter-onboarding.md`](checklists/chatter-onboarding.md) | The first week of a new chatter, step by step. |
 | [`docs/glossary.md`](docs/glossary.md) | PPV, whales, rebill, mass messages and the other words agencies use every day. |
+| [`checklists/ru/`](checklists/ru/) · [`checklists/uk/`](checklists/uk/) · [`docs/ru/`](docs/ru/) · [`docs/uk/`](docs/uk/) | The checklists and the glossary in Russian and Ukrainian. |
 
 ## How chatter pay is counted
 
@@ -59,10 +60,11 @@ More detail in our articles:
 
 Бесплатные шаблоны для агентства онлифанс и Fansly:
 - калькулятор зарплаты чатеров — [открыть на русском](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/ru/);
-- график смен;
-- передача смены;
-- ежедневные цифры;
-- адаптация нового чатера.
+- [ежедневные цифры агентства](checklists/ru/daily-agency-metrics.md);
+- [шаблон передачи смены](checklists/ru/shift-handover.md);
+- [первая неделя нового чатера](checklists/ru/chatter-onboarding.md);
+- [словарь агентства](docs/ru/glossary.md);
+- шаблоны зарплаты и графика смен — в папке [`templates`](templates/) (на английском).
 
 Статьи на русском — в [блоге Leeward](https://leewardwork.com/ru/blog/).
 
@@ -70,9 +72,10 @@ More detail in our articles:
 
 Безкоштовні шаблони для агенції онліфанс і Fansly:
 - калькулятор зарплати чатерів — [відкрити українською](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/uk/);
-- графік змін;
-- передача зміни;
-- щоденні цифри;
-- адаптація нового чатера.
+- [щоденні цифри агенції](checklists/uk/daily-agency-metrics.md);
+- [шаблон передачі зміни](checklists/uk/shift-handover.md);
+- [перший тиждень нового чатера](checklists/uk/chatter-onboarding.md);
+- [словник агенції](docs/uk/glossary.md);
+- шаблони зарплати й графіка змін — у папці [`templates`](templates/) (англійською).
 
 Статті українською — у [блозі Leeward](https://leewardwork.com/uk/blog/).
