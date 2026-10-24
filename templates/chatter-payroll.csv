@@ -1,0 +1,4 @@
+Chatter,Period start,Period end,Hours,Hourly rate (USD),Fixed base (USD),Sales (USD),Commission (%),Base pay (USD),Commission (USD),Bonus or penalty (USD),Total (USD),USD per hour
+Chatter A,,,,,,,,=D2*E2+F2,=G2*H2/100,,=I2+J2+K2,"=IF(D2>0,L2/D2,0)"
+Chatter B,,,,,,,,=D3*E3+F3,=G3*H3/100,,=I3+J3+K3,"=IF(D3>0,L3/D3,0)"
+Chatter C,,,,,,,,=D4*E4+F4,=G4*H4/100,,=I4+J4+K4,"=IF(D4>0,L4/D4,0)"

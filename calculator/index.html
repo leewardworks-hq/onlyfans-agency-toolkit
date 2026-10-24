@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chatter Payroll Calculator for OnlyFans & Fansly Agencies</title>
+<meta name="description" content="Free chatter payroll calculator for OnlyFans and Fansly agencies: hourly pay, fixed base, commission, bonus or penalty and real pay per hour. CSV export.">
+<link rel="canonical" href="https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/">
+<link rel="alternate" hreflang="en" href="https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/">
+<link rel="alternate" hreflang="ru" href="https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/ru/">
+<link rel="alternate" hreflang="uk" href="https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/uk/">
+<link rel="alternate" hreflang="x-default" href="https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/">
+<meta property="og:title" content="Chatter Payroll Calculator for OnlyFans & Fansly Agencies">
+<meta property="og:description" content="Hourly pay, fixed base, commission and bonus for every chatter, with real pay per hour. Free, runs in your browser.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d1f23'/%3E%3Ctext x='16' y='22.5' font-family='system-ui,sans-serif' font-size='18' font-weight='700' text-anchor='middle' fill='%23fff'%3E$%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<main>
+  <nav class="langs" aria-label="Language"><a href="./" aria-current="page">English</a><a href="ru/">Русский</a><a href="uk/">Українська</a></nav>
+  <h1>Chatter payroll calculator</h1>
+  <p class="lead">For OnlyFans and Fansly agencies. Enter hours, sales and pay terms for each chatter: the calculator adds hourly pay, fixed base, commission and bonus, and shows what each chatter really earned per hour. Everything stays in this browser.</p>
+
+  <div class="card">
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Chatter</th>
+            <th scope="col" class="num">Hours</th>
+            <th scope="col" class="num">Hourly rate, $</th>
+            <th scope="col" class="num">Fixed base, $</th>
+            <th scope="col" class="num">Sales, $</th>
+            <th scope="col" class="num">Commission, %</th>
+            <th scope="col" class="num">Bonus / penalty, $</th>
+            <th scope="col" class="num">Base pay, $</th>
+            <th scope="col" class="num">Commission, $</th>
+            <th scope="col" class="num">Total, $</th>
+            <th scope="col" class="num">$ per hour</th>
+            <th scope="col"><span class="sr">Remove</span></th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td><td class="num" id="s-hours">0</td><td></td><td></td><td class="num" id="s-sales">0.00</td><td></td><td></td>
+            <td class="num" id="s-base">0.00</td><td class="num" id="s-commission">0.00</td><td class="num" id="s-total">0.00</td><td class="num" id="s-perHour">0.00</td><td></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div class="bar">
+      <button class="btn pri" id="add" type="button">Add chatter</button>
+      <button class="btn" id="csv" type="button">Download CSV</button>
+      <button class="btn" id="clear" type="button">Clear table</button>
+    </div>
+  </div>
+  <noscript><p>The calculator needs JavaScript. The same formulas are in the <a href="../templates/chatter-payroll.csv">spreadsheet template</a>.</p></noscript>
+
+  <ul class="notes">
+    <li><b>Base pay</b> = hours × hourly rate + fixed base. <b>Commission</b> = sales × commission % ÷ 100. <b>Total</b> = base pay + commission + bonus (a penalty is a negative bonus).</li>
+    <li><b>$ per hour</b> = total ÷ hours. Use it to compare chatters who are paid on different terms.</li>
+    <li>Commission only? Leave the hourly rate and fixed base empty. Hours only? Leave the commission empty.</li>
+    <li>Prefer a spreadsheet? Use the <a href="../templates/chatter-payroll.csv">template with the same formulas</a> in Google Sheets or Excel.</li>
+    <li>Your data is saved only in this browser, so the table is still here when you come back.</li>
+  </ul>
+
+  <footer>Part of the free <a href="https://github.com/leewardworks/onlyfans-agency-toolkit">OnlyFans &amp; Fansly Agency Toolkit</a> (MIT license). Made by the team behind <a href="https://leewardworks.com/">Leeward</a>, a desktop CRM for OnlyFans and Fansly agencies where hours and sales for payroll are counted automatically. How agencies pay chatters: <a href="https://leewardwork.com/blog/how-to-pay-onlyfans-chatters/">read the guide</a>.</footer>
+</main>
+<script id="i18n" type="application/json">{"chatter":"Chatter","labels":{"name":"Chatter name","hours":"Hours","rate":"Hourly rate in dollars","fixed":"Fixed base in dollars","sales":"Sales in dollars","comm":"Commission percent","bonus":"Bonus or penalty in dollars"},"remove":"Remove this chatter","clear":"Clear table","clearArmed":"Click again to clear","file":"chatter-payroll.csv","csv":["Chatter","Hours","Hourly rate (USD)","Fixed base (USD)","Sales (USD)","Commission (%)","Bonus or penalty (USD)","Base pay (USD)","Commission (USD)","Total (USD)","USD per hour"]}</script>
+<script src="calc.js"></script>
+</body>
+</html>
