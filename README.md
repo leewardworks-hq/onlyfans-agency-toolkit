@@ -4,7 +4,7 @@ Free, practical templates for running an OnlyFans or Fansly agency: a chatter pa
 
 Everything here works without special software: in a browser, Google Sheets or Excel. No sign-up, no tracking.
 
-**Calculator online:** [English](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/) · [Русский](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/ru/) · [Українська](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/uk/)
+**Calculator online:** [English](https://leewardworks-hq.github.io/onlyfans-agency-toolkit/calculator/) · [Русский](https://leewardworks-hq.github.io/onlyfans-agency-toolkit/calculator/ru/) · [Українська](https://leewardworks-hq.github.io/onlyfans-agency-toolkit/calculator/uk/)
 
 ## What's inside
 
@@ -59,7 +59,7 @@ More detail in our articles:
 ### На русском
 
 Бесплатные шаблоны для агентства онлифанс и Fansly:
-- калькулятор зарплаты чатеров — [открыть на русском](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/ru/);
+- калькулятор зарплаты чатеров — [открыть на русском](https://leewardworks-hq.github.io/onlyfans-agency-toolkit/calculator/ru/);
 - [ежедневные цифры агентства](checklists/ru/daily-agency-metrics.md);
 - [шаблон передачи смены](checklists/ru/shift-handover.md);
 - [первая неделя нового чатера](checklists/ru/chatter-onboarding.md);
@@ -71,7 +71,7 @@ More detail in our articles:
 ### Українською
 
 Безкоштовні шаблони для агенції онліфанс і Fansly:
-- калькулятор зарплати чатерів — [відкрити українською](https://leewardworks.github.io/onlyfans-agency-toolkit/calculator/uk/);
+- калькулятор зарплати чатерів — [відкрити українською](https://leewardworks-hq.github.io/onlyfans-agency-toolkit/calculator/uk/);
 - [щоденні цифри агенції](checklists/uk/daily-agency-metrics.md);
 - [шаблон передачі зміни](checklists/uk/shift-handover.md);
 - [перший тиждень нового чатера](checklists/uk/chatter-onboarding.md);
